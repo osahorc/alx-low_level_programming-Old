@@ -5,9 +5,8 @@
 /* more headers goes there */
 #include <stdio.h>
 
-/* betty style doc for function main goes there */
 /**
- * main: This is the main function
+ * main:- This is the main function
  * Description: This program shows positive of negative numbers
  * Return:0 - Returns Zero
  */
