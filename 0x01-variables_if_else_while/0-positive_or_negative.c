@@ -7,7 +7,7 @@
 
 /* betty style doc for function main goes there */
 /**
- * Main - This is the main function
+ * main: This is the main function
  * Description: This program shows positive of negative numbers
  * Return:0 - Returns Zero
  */
