@@ -5,8 +5,8 @@
 /* betty style doc for function main goes there */
 /**
  * main:- The main function is to alculate
- * description:- tis program is a decription.
- * return:0- the return is zero
+ * description:- This program is a decription.
+ * return:0 - The return is zero
  */
 int main(void)
 {
@@ -14,11 +14,10 @@ int main(void)
 	int lastd;
 	
 	srand(time(0));
-	
+
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
 	lastd = n % 10;
-
 	if (lastd > 5)
 	{
 		printf("Last digit of %d is %d and is greater than 5\n", n, lastd);
