@@ -7,28 +7,27 @@
 
 /* betty style doc for function main goes there */
 /**
- * main - this is the main function
- * description - this program shows positive of negative numbers
- * return:0 - returns Zero
+ * Main - This is the main function
+ * Description - This program shows positive of negative numbers
+ * Return:0 - Returns Zero
  */
-
 int main(void)
 {
-int n;
+	int n;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 /* your code goes there */
-if (n > 0) 
+if (n > 0)
 {
-printf("%d is positive\n",n);
-} 
+	printf("%d is positive\n", n);
+}
 else if (n < 0)
 {
-printf("%d is negative\n",n);
+	printf("%d is negative\n", n);
 }
 else
 {
-printf("%d is zero\n",n);
+	printf("%d is zero\n", n);
 }
 return (0);
 }
