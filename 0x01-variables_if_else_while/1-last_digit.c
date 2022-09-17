@@ -4,14 +4,15 @@
 #include <stdio.h>
 /* betty style doc for function main goes there */
 /**
- * Main:- The main.
- * Description:- tis program is a decription.
- * Return:0- the return is zero
+ * main:- The main function is to alculate
+ * description:- tis program is a decription.
+ * return:0- the return is zero
  */
 int main(void)
 {
 	int n;
 	int lastd;
+	
 	srand(time(0));
 	
 	n = rand() - RAND_MAX / 2;
