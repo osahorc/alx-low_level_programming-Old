@@ -8,8 +8,7 @@
  * description:- This program is a decription.
  * return:0 - The return is zero
  */
-int main(void)
-{
+int main(void){
 	int n;
 	int lastd;
 
