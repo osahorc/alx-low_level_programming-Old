@@ -2,12 +2,12 @@
 #include <time.h>
 /* more headers goes there */
 #include <stdio.h>
-/* betty style doc for function main goes there */
+
 /**
- * main:- The main function is to alculate
- * description:- This program is a decription.
- * return:0 - The return is zero
- */
+ * main:- This is the main funtiom
+ * Description: This program shows positive of negative numbers
+ * Return:0 - Returns Zero
+ */ 
 int main(void)
 {
 	int n;
