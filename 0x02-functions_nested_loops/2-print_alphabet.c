@@ -5,10 +5,10 @@
  * Description: This program shows positive of negative numbers
  * Return:0 - Returns Zero
  */
-int main(void)
+void print_alphabet(void)
 {
 	char lower;
-
+	
 	for (lower = 'a'; lower <= 'z'; lower++)
 		putchar(lower);
 	putchar('\n');
