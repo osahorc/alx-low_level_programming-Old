@@ -9,7 +9,7 @@ int main(void)
 {
 	int lower;
 
-	for (lower =0'; lower <= 9; lower++)
+	for (lower = 0; lower <= 9; lower++)
 		printf("%d", lower);
 	putchar('\n');
 	return (0);
