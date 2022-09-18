@@ -7,7 +7,7 @@
  * main:- This is the main funtiom
  * Description: This program shows positive of negative numbers
  * Return:0 - Returns Zero
- */ 
+ */
 int main(void)
 {
 	int n;
