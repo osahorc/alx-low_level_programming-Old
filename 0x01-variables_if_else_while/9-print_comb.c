@@ -9,12 +9,12 @@ int main(void)
 {
 	int lower;
 
-	for (lower = 48; lower <= 57; lower++)
+	for (lower = 48; lower <= 56; lower++)
 	{
 		putchar(lower);
 		putchar(',');
 		putchar(' ');
 	}
-	putchar(',');
+	putchar(57);
 	return(0);
 }
