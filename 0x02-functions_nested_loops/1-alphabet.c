@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * main:- This is the main function
- * Description: This program shows positive of negative numbers
- * Return:0 - Returns Zero
+ * main - check the code
+ * 
+ * Return: Always 0.
+ *
  */
 
 int main(void)
