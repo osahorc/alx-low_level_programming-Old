@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include main.h
 
 /**
  * main:- This is the main function
@@ -7,6 +8,10 @@
  */
 int main(void)
 {
-	printf("_putchar\n");
+	char lower;
+
+	for (lower = 'a'; lower <= 'z'; lower++)
+		_putchar(lower);
+	_putchar('\n');
 	return (0);
 }

@@ -1,12 +1,2 @@
-#include <stdio.h>
-
-/**
- * main:- This is the main function
- * Description: This program shows positive of negative numbers
- * Return:0 - Returns Zero
- */
-int main(void)
-{
-	printf("_putchar\n");
-	return (0);
-}
+int _putchar(char c);
+void print_alphabet(void);
