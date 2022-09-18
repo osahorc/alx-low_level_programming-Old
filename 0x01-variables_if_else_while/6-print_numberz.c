@@ -7,9 +7,9 @@
  */
 int main(void)
 {
-	char lower;
+	int lower;
 
-	for (lower = 48; lower <= 57; lower++)
+	for (lower = 0; lower <= 9; lower++)
 		putchar(lower);
 	putchar('\n');
 	return (0);
