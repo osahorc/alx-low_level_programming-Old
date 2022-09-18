@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	char lower;
+	int lower;
 
 	for (lower = 48; lower <= 57; lower++)
 	{
