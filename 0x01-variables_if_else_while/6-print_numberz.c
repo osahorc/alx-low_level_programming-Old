@@ -9,7 +9,7 @@ int main(void)
 {
 	char lower;
 
-	for (lower = '48'; lower <= '57'; lower++)
+	for (lower = 48; lower <= 57; lower++)
 		putchar(lower);
 	putchar('\n');
 	return (0);
