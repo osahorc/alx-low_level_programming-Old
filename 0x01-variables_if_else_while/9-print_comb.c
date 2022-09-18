@@ -12,7 +12,7 @@ int main(void)
 	for (lower = 48; lower <= 57; lower++)
 	{
 		putchar(lower);
-		if(lower == 57)
+		if (lower == 57)
 		{
 			continue;
 		}
@@ -20,5 +20,5 @@ int main(void)
 		putchar(' ');
 	}
 	putchar('\n');
-	return(0);
+	return (0);
 }
