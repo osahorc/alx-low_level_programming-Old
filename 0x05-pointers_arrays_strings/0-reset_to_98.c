@@ -2,13 +2,13 @@
 #include <stdio.h>
 
 /**
- * main - check the code 
+ * void reset_to_98 - check the code 
  * 
  * Return: Always 0.
  *
  */
 
-int main(void)
+void reset_to_98(int *n);
 {
 	int n;
 	n = 402;
