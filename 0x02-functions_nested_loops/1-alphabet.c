@@ -1,16 +1,15 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main:- This is the main function
- * Description: This program shows positive of negative numbers
- * Return:0 - Returns Zero
+ * print_alphabet - This is the main function
+ *
+ * Return: - Returns void
  */
-int main(void)
+void print_alphabet(void)
 {
-	char lower;
+	int c;
 
-	for (lower = 'a'; lower <= 'z'; lower++)
-		putchar(lower);
-	putchar('\n');
-	return (0);
+	for (c = 'a'; c <= 'z'; c++)
+		_putchar(c);
+	_putchar('\n');
 }
