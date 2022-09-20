@@ -9,7 +9,8 @@
  * Return: void
  */
 
-int _strlen(char *str)
+int _strlen(char *s)
 {
-	strlen(str);
+	char s;
+	strlen(s);
 }
