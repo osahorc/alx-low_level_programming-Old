@@ -1,5 +1,7 @@
 #include "main.h"
 #include <stdio.h>
+#include <string.h>
+
 /**
  * _strlen - This function counts the lenght of the string
  * @s: the string to be calculated
@@ -8,6 +10,7 @@
  */
 
 int _strlen(char *s)
+size_t strlen(const char *s);
 {
 	strlen(*s);
 }
