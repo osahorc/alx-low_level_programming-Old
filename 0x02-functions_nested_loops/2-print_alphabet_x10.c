@@ -7,17 +7,9 @@
  */
 void print_alphabet_x10(void)
 {
-	int d;
-	d = 0;
-	while (d <= 9) 
-	{
-	int c;
-	c = 'a';
-	while (c <= 'z')
-		{
-			_putchar(c);
-			c++;
-		}
-	}
-	_putchar('\n');
+	int ti;
+	ti = 0;
+	for (ti = 0; ti <= 9; ti++)
+	{{char ch; for (ch = 'a'; ch <= 'z'; ch++) putchar(ch); 		putchar('\n');}}
+	return 0;
 }
